@@ -24,22 +24,13 @@ export default class ClimbOnNative extends Component {
     return (
       <View style={styles.container}>
       <Text>Use GoogleMaps?</Text>
-        {/* <Switch
-          onValueChange={(value) => this.setState({ useGoogleMaps: value })}
-          style={{ marginBottom: 10 }}
-        //   value={this.state.useGoogleMaps}
-        />
-        <Text style={styles.welcome}>
-            WTF?
-        </Text>
         <MapView
           initialRegion={{
             latitude: 37.78825,
             longitude: -122.4324,
             latitudeDelta: 0.0922,
             longitudeDelta: 0.0421,
-          }}
-        /> */}
+        }} />
       </View>
     );
   }

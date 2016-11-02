@@ -9,7 +9,7 @@ import {
   Switch,
 } from 'react-native';
 import { PROVIDER_GOOGLE, PROVIDER_DEFAULT } from 'react-native-maps';
-import Map from './components/map';
+import Map from './components/map.js';
 
 class App extends React.Component {
   constructor(props) {
