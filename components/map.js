@@ -18,7 +18,7 @@ import {
 
 var MapView = require('react-native-maps');
 
-export default class Map extends Component {
+class Map extends Component {
   render() {
     return (
       <View style={styles.container}>

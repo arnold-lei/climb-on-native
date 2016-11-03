@@ -2,10 +2,10 @@ import React from 'react';
 import { AppRegistry } from 'react-native';
 import App from './App';
 
-class AirMapsExplorer extends React.Component {
+class ClimbOnNative extends React.Component {
   render() {
     return <App />;
   }
 }
 
-AppRegistry.registerComponent('AirMapsExplorer', () => AirMapsExplorer);
+AppRegistry.registerComponent('ClimbOnNative', () => ClimbOnNative);

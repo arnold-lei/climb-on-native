@@ -15,10 +15,9 @@ class App extends Component {
   constructor(props) {
     super(props);
 
-    this.state = {
-      Component: null,
-      useGoogleMaps: ANDROID,
-    };
+    // this.state = {
+    //   Component: null,
+    // };
   }
 
   render() {
