@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react'
 import {
   Platform,
   View,
@@ -11,7 +11,7 @@ import {
 import { PROVIDER_GOOGLE, PROVIDER_DEFAULT } from 'react-native-maps';
 import Map from './components/map.js';
 
-class App extends React.Component {
+class App extends Component {
   constructor(props) {
     super(props);
 

@@ -6,7 +6,6 @@
 
 import React, { Component } from 'react';
 import {
-  AppRegistry,
   Platform,
   View,
   StyleSheet,
@@ -19,7 +18,7 @@ import {
 
 var MapView = require('react-native-maps');
 
-export default class ClimbOnNative extends Component {
+export default class Map extends Component {
   render() {
     return (
       <View style={styles.container}>
